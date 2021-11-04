@@ -1,0 +1,22 @@
+{
+  "name": "ponderous",
+  "version": "1.0.0",
+  "description": "A random question generator for getting to know people.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "questions",
+    "people",
+    "nodejs",
+    "relationships",
+    "application",
+    "random"
+  ],
+  "author": "James Boehme",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
