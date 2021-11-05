@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<!--
+		Hello! Interested in offering me a position at your company?
+		Drop me an email at: jamesrbdev@gmail.com
+	-->
+	
+	<!--———————————————————————————————————————————————————————————————-->
+	<!-- HEAD                                                          -->
+	<!--———————————————————————————————————————————————————————————————-->
+	
+	<head>
+		<title>Ponderous</title>
+		<meta charset="UTF-8"/>
+		<meta name="description" content=""/>
+		<meta name="keywords"    content="relationship,friends,questions,random"/>
+		<meta name="author"      content="James Boehme"/>
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0"/>
+		
+		<link type="text/css" rel="stylesheet" href="style.css"/>
+		<link rel="shortcut icon" href="favicon.ico"/>
+	</head>
+	
+	<!--———————————————————————————————————————————————————————————————-->
+	<!-- CONTENT                                                       -->
+	<!--———————————————————————————————————————————————————————————————-->
+	
+	<body>
+		<div id="orb-container">
+			<button id="cat-personal" class="orb" onclick="setCategory('personal');"><p>Personal</p></button>
+			<button id="cat-deep"     class="orb" onclick="setCategory('deep');"><p>Deep</p></button>
+			<button id="cat-romantic" class="orb" onclick="setCategory('romantic');"><p>Romantic</p></button>
+			<button id="cat-casual"   class="orb" onclick="setCategory('casual');"><p>Casual</p></button>
+			<a href="/"><div id="title-orb" class="orb"><h1>Ponderous</h1></div></a>
+		</div>
+		<div id="gen-container" hidden>
+			<h1><a href="/" style="color: white;">Ponderous</a></h1>
+			<p id="gen-text">What is your favorite color?</p>
+			<p><a id="gen-button" onclick="generate()">Generate Another!</a></p>
+		</div>
+	</body>
+	
+	<!--———————————————————————————————————————————————————————————————-->
+	<!-- SCRIPTS                                                       -->
+	<!--———————————————————————————————————————————————————————————————-->
+
+	<script src="script.js" defer></script>
+</html>

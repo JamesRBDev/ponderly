@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Zen+Kurenaido&display=swap');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+}
+
+.orb {
+	position: absolute;
+	display: inline-block;
+	border-radius: 100%;
+	width: 125px;
+	height: 125px;
+	background-color: gray;
+	text-align: center;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	user-select: none;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+}
+
+.orb p, .orb h1 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	padding: 0;
+	margin: 0;
+	color: white;
+	align-items: center;
+	vertical-align: middle;
+	transition: opacity 1s;
+}
+
+#title-orb {
+	width: 255px;
+	height: 255px;
+}
+
+h1 {
+	font-size: 48px;
+	text-decoration: none;
+	font-weight: normal;
+	user-select: none;
+	color: white;
+}
+
+button.orb {
+	border: none;
+	box-sizing: unset;
+	padding: 0;
+	transition: padding 0.3s;
+	cursor: pointer;
+}
+
+button.orb:hover {
+	padding: 24px;
+}
+
+#cat-personal {
+	margin-left: 256px;
+	margin-top: -48px;
+	height: 125px;
+	width: 125px;
+	background-color: darkred;
+}
+
+#cat-deep {
+	margin-top: 256px;
+	height: 145px;
+	width: 145px;
+	background-color: darkolivegreen;
+}
+
+#cat-romantic {
+	margin-top: -256px;
+	margin-left: -128px;
+	width: 165px;
+	height: 165px;
+	background-color: #593bab;
+}
+
+#cat-casual {
+	margin-left: -256px;
+	width: 185px;
+	height: 185px;
+	background-color: #dd8924;
+}
+
+#orb-container {
+	position: absolute;
+	width: 800px;
+	height: 800px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+a {
+	color: #e5e5e5;
+	text-decoration: none;
+	cursor: pointer;
+	user-select: none;
+	transition: color 0.1s;
+}
+
+a:hover {
+	color: white;
+}
+
+a:visited {color: #e5e5e5;}
+
+#gen-container {
+	width: 80%;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	opacity: 0;
+	transition: opacity 0.3s;
+}
+
+#gen-text {
+	font-family: 'Zen Kurenaido', sans-serif;
+	font-size: 36px;
+}
+
+#gen-button {
+	font-size: 32px;
+}
