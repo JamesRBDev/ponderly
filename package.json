@@ -1,5 +1,5 @@
 {
-  "name": "ponderous",
+  "name": "ponderly",
   "version": "1.0.0",
   "description": "A random question generator for getting to know people.",
   "main": "server.js",
