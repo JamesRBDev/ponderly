@@ -1,6 +1,13 @@
 let currentCat;
 let catQuestions;
 
+function loadQuestions() {
+	fetch(`questions/${currentCat}.txt`).then(response => response.text()).then((data) => {
+		catQuestions = data.split("\n");
+		generate();
+	});
+}
+
 function setCategory(category) {
 	let catOrb = document.getElementById("cat-" + category);
 	let catP = catOrb.getElementsByTagName("p")[0];
@@ -13,13 +20,15 @@ function setCategory(category) {
 	genC.style.opacity = 1;
 	currentCat = category;
 
-	fetch(`questions/${currentCat}.txt`).then(response => response.text()).then((data) => {
-		catQuestions = data.split("\n");
-		generate();
-	});
+	loadQuestions();
 }
 
 function generate() {
-	let genText = document.getElementById("gen-text");
-	genText.innerText = catQuestions[Math.floor(Math.random() * catQuestions.length)];
+	if (catQuestions.length < 1) {
+		loadQuestions();
+	} else {
+		let genText = document.getElementById("gen-text");
+		let index = Math.floor(Math.random() * catQuestions.length);
+		genText.innerText = catQuestions.splice(index, 1);
+	}
 }

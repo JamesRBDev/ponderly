@@ -99,6 +99,7 @@ button.orb:hover {
 	margin-left: 96px;
 	width: 100px;
 	height: 100px;
+	background-color: rgb(31, 196, 127);
 }
 
 #orb-container {
