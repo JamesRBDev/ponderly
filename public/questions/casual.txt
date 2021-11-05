@@ -4,7 +4,7 @@ What is your favorite season?
 What is your favorite ice cream flavor?
 What is your favorite food to snack on?
 Do you prefer salty or sweet?
-What is your favorite video game of all time?
+What is your favorite video game?
 What is your favorite song?
 Have you ever been on a rollercoaster?
 What's far more expensive than it should be?
@@ -16,3 +16,42 @@ If dogs had social media, what would be a clever name for it?
 What was the best part of today?
 What is the scariest movie you have ever seen?
 What is your favorite song to listen to when you're sad?
+What was the last TV show you binge-watched?
+Would you take a trip to outer space?
+Do you play any sports?
+How often do you eat out at restaurants?
+If you could instantly learn another language, which would you pick?
+Do you prefer hot or cold beverages?
+Do you prefer iPhone or Android?
+If you owned a business, what would it be?
+Do you enjoy watching cheesy movies?
+Do you have a favorite movie franchise?
+Do you think that fish have dreams?
+What is the worst pizza topping?
+What's the worst movie you've ever seen?
+What's the best joke you know?
+What's a fun fact about yourself?
+If you wrote a book, what would it be about?
+What's your dream job?
+What is the best way to consume literature? Paper, e-books, or audio?
+What are your thoughts on public transportation?
+What is the most interesting thing you have read this week?
+What’s your favorite way to waste time online?
+What is the worst gift that you’ve ever received?
+What book would you bring to a deserted island?
+What isn’t real, but you wish was real?
+What do you think is the absolute best job?
+If you could master any skill what would it be?
+What book could you not put down once you picked it up?
+What TV show can you watch over and over again?
+What type of food could you not live without?
+What is your favorite dessert?
+Do you play any instruments?
+Do you have a lucky number?
+What is your least favorite chore?
+What is your favorite restaurant?
+Do you prefer coffee or tea?
+Do you like cats or dogs better?
+What was the best and worst thing that happened to you today?
+If you won a million dollars, what’s the first thing you would spend it on?
+If there was a fire burning your house down, what would you grab before running out?

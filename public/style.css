@@ -94,6 +94,13 @@ button.orb:hover {
 	background-color: #dd8924;
 }
 
+#cat-funny {
+	margin-top: -220px;
+	margin-left: 96px;
+	width: 100px;
+	height: 100px;
+}
+
 #orb-container {
 	position: absolute;
 	width: 800px;

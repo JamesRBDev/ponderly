@@ -15,6 +15,7 @@ function setCategory(category) {
 
 	fetch(`questions/${currentCat}.txt`).then(response => response.text()).then((data) => {
 		catQuestions = data.split("\n");
+		generate();
 	});
 }
 
