@@ -118,7 +118,7 @@ button.orb:hover {
 }
 
 a {
-	color: #e5e5e5;
+	color: white;
 	text-decoration: none;
 	cursor: pointer;
 	user-select: none;
@@ -129,7 +129,7 @@ a:hover {
 	color: white;
 }
 
-a:visited {color: #e5e5e5;}
+a:visited {color: white;}
 
 #gen-container, #about-container {
 	width: 80%;
@@ -157,6 +157,10 @@ a:visited {color: #e5e5e5;}
 
 #gen-button {
 	font-size: 36px;
+}
+
+#gen-button:hover {
+	text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);
 }
 
 #about-container p {
