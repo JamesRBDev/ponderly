@@ -32,3 +32,15 @@ function generate() {
 		genText.innerText = catQuestions.splice(index, 1);
 	}
 }
+
+function showAbout() {
+	let catOrb = document.getElementById("title-orb");
+	let catP = catOrb.getElementsByTagName("h1")[0];
+	let genC = document.getElementById("about-container")
+	genC.hidden = undefined;
+	catOrb.style.padding = "1280px";
+	catOrb.style.zIndex = 100;
+	document.getElementById("orb-container").style.pointerEvents = "none";
+	catP.style.opacity = 0;
+	genC.style.opacity = 1;
+}

@@ -7,6 +7,12 @@ html, body {
 	background-color: white;
 	font-family: 'Kaushan Script', cursive;
 	font-size: 24px;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	position: relative;
 }
 
 .orb {
@@ -52,7 +58,7 @@ h1 {
 	color: white;
 }
 
-button.orb {
+.orb  {
 	border: none;
 	box-sizing: unset;
 	padding: 0;
@@ -125,9 +131,9 @@ a:hover {
 
 a:visited {color: #e5e5e5;}
 
-#gen-container {
+#gen-container, #about-container {
 	width: 80%;
-	height: 400px;
+	height: auto;
 	position: absolute;
 	left: 50%;
 	top: 50%;
@@ -140,11 +146,39 @@ a:visited {color: #e5e5e5;}
 	transition: opacity 0.3s;
 }
 
+#about-container {
+	height: auto;
+}
+
 #gen-text {
 	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 36px;
 }
 
 #gen-button {
+	font-size: 36px;
+}
+
+#about-container p {
+	font-family: 'Zen Kurenaido', sans-serif;
 	font-size: 32px;
+}
+
+@media only screen and (max-width: 576px) {
+	#orb-container {
+		transform: scale(0.5) translate(-100%, -100%);
+	}
+
+	#gen-container, #about-container {
+		transform: scale(0.5) translate(-100%, -100%);
+		width: 175%;
+	}
+
+	#gen-text, #gen-button {
+		font-size: 48px;
+	}
+
+	#gen-container h1, #about-container h1 {
+		font-size: 56px;
+	}
 }
