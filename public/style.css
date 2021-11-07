@@ -1,188 +1,202 @@
+/*
+	Hello! Interested in offering me a position at your company?
+	Drop me an email at: jamesrbdev@gmail.com 
+*/
+
+/*——————————————————————————————————————————————————————————————————*/
+/* INFORMATION                                                      */
+/*——————————————————————————————————————————————————————————————————*/
+
+/* Contributors: James Boehme */
+
+/* Defines global CSS rules for the website. */
+
+/*——————————————————————————————————————————————————————————————————*/
+/* IMPORTS                                                          */
+/*——————————————————————————————————————————————————————————————————*/
+
+/* These are the two main fonts for the site. */
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Zen+Kurenaido&display=swap');
 
+/*——————————————————————————————————————————————————————————————————*/
+/* STRUCTURE                                                        */
+/*——————————————————————————————————————————————————————————————————*/
+
 html, body {
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+	margin:           0;
+	padding:          0;
+	overflow:         hidden;
 	background-color: white;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 24px;
-	width: 100%;
-	height: 100%;
+	font-family:      'Kaushan Script', cursive;
+	font-size:        24px;
+	width:            100%;
+	height:           100%;
 }
 
-body {
-	position: relative;
-}
+body {position: relative;}
 
-.orb {
-	position: absolute;
-	display: inline-block;
-	border-radius: 100%;
-	width: 125px;
-	height: 125px;
-	background-color: gray;
-	text-align: center;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	user-select: none;
-	font-family: 'Kaushan Script', cursive;
-	font-size: 24px;
-}
-
-.orb p, .orb h1 {
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	text-align: center;
-	transform: translate(-50%, -50%);
-	padding: 0;
-	margin: 0;
-	color: white;
-	align-items: center;
-	vertical-align: middle;
-	transition: opacity 1s;
-}
-
-#title-orb {
-	width: 255px;
-	height: 255px;
-}
+/*——————————————————————————————————————————————————————————————————*/
+/* CONTENT                                                          */
+/*——————————————————————————————————————————————————————————————————*/
 
 h1 {
-	font-size: 48px;
+	font-size:       48px;
 	text-decoration: none;
-	font-weight: normal;
-	user-select: none;
-	color: white;
-}
-
-.orb  {
-	border: none;
-	box-sizing: unset;
-	padding: 0;
-	transition: padding 0.3s;
-	cursor: pointer;
-}
-
-button.orb:hover {
-	padding: 24px;
-}
-
-#cat-personal {
-	margin-left: 256px;
-	margin-top: -48px;
-	height: 125px;
-	width: 125px;
-	background-color: darkred;
-}
-
-#cat-deep {
-	margin-top: 256px;
-	height: 145px;
-	width: 145px;
-	background-color: darkolivegreen;
-}
-
-#cat-romantic {
-	margin-top: -256px;
-	margin-left: -128px;
-	width: 165px;
-	height: 165px;
-	background-color: #593bab;
-}
-
-#cat-casual {
-	margin-left: -256px;
-	width: 185px;
-	height: 185px;
-	background-color: #dd8924;
-}
-
-#cat-funny {
-	margin-top: -220px;
-	margin-left: 96px;
-	width: 105px;
-	height: 105px;
-	background-color: rgb(31, 196, 127);
+	font-weight:     normal;
+	user-select:     none;
+	color:           white;
 }
 
 #orb-container {
-	position: absolute;
-	width: 800px;
-	height: 800px;
-	left: 50%;
-	top: 50%;
+	position:  absolute;
+	width:     800px;
+	height:    800px;
+	left:      50%;
+	top:       50%;
 	transform: translate(-50%, -50%);
 }
 
 a {
-	color: white;
+	color:           white;
 	text-decoration: none;
-	cursor: pointer;
-	user-select: none;
-	transition: color 0.1s;
+	cursor:          pointer;
+	user-select:     none;
+	transition:      color 0.1s;
 }
 
-a:hover {
-	color: white;
-}
+a:hover {color: white;}
 
 a:visited {color: white;}
 
 #gen-container, #about-container {
-	width: 80%;
-	height: auto;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-	color: white;
+	width:       80%;
+	height:      auto;
+	position:    absolute;
+	left:        50%;
+	top:         50%;
+	transform:   translate(-50%, -50%);
+	text-align:  center;
+	color:       white;
 	font-family: 'Kaushan Script', cursive;
-	font-size: 24px;
-	opacity: 0;
-	transition: opacity 0.3s;
-}
-
-#about-container {
-	height: auto;
+	font-size:   24px;
+	opacity:     0.1;
+	transition:  opacity 0.3s;
 }
 
 #gen-text {
 	font-family: 'Zen Kurenaido', sans-serif;
-	font-size: 36px;
+	font-size:   36px;
 }
 
-#gen-button {
-	font-size: 36px;
-}
+#gen-button {font-size: 36px;}
 
-#gen-button:hover {
-	text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);
-}
+#gen-button:hover {text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.5);}
+
+#about-container {height: auto;}
 
 #about-container p {
 	font-family: 'Zen Kurenaido', sans-serif;
-	font-size: 32px;
+	font-size:   32px;
 }
 
-@media only screen and (max-width: 576px) {
-	#orb-container {
-		transform: scale(0.5) translate(-100%, -100%);
-	}
+/*——————————————————————————————————————————————————————————————————*/
+/* CATEGORY ORBS                                                    */
+/*——————————————————————————————————————————————————————————————————*/
+
+.orb {
+	position:         absolute;
+	display:          inline-block;
+	border-radius:    100%;
+	width:            125px;
+	height:           125px;
+	background-color: gray;
+	text-align:       center;
+	left:             50%;
+	top:              50%;
+	transform:        translate(-50%, -50%);
+	user-select:      none;
+	font-family:      'Kaushan Script', cursive;
+	font-size:        24px;
+	border:           none;
+	box-sizing:       unset;
+	transition:       padding 0.3s;
+	padding:          0;
+	cursor:           pointer;
+}
+
+.orb p, .orb h1 {
+	position:       absolute;
+	left:           50%;
+	top:            50%;
+	text-align:     center;
+	transform:      translate(-50%, -50%);
+	padding:        0;
+	margin:         0;
+	color:          white;
+	align-items:    center;
+	vertical-align: middle;
+	transition:     opacity 1s;
+}
+
+button.orb:hover {padding: 24px;}
+
+#title-orb {
+	width:  255px;
+	height: 255px;
+}
+
+#cat-personal {
+	margin-left:      256px;
+	margin-top:       -48px;
+	height:           125px;
+	width:            125px;
+	background-color: darkred;
+}
+
+#cat-deep {
+	margin-top:       256px;
+	height:           145px;
+	width:            145px;
+	background-color: darkolivegreen;
+}
+
+#cat-romantic {
+	margin-top:       -256px;
+	margin-left:      -128px;
+	width:            165px;
+	height:           165px;
+	background-color: #593bab;
+}
+
+#cat-casual {
+	margin-left:      -256px;
+	width:            185px;
+	height:           185px;
+	background-color: #dd8924;
+}
+
+#cat-funny {
+	margin-top:       -220px;
+	margin-left:      96px;
+	width:            105px;
+	height:           105px;
+	background-color: rgb(31, 196, 127);
+}
+
+/*——————————————————————————————————————————————————————————————————*/
+/* MEDIA QUERIES                                                    */
+/*——————————————————————————————————————————————————————————————————*/
+
+/* Mobile responsiveness. */
+@media only screen and (max-width: 700px) {
+	#orb-container {transform: scale(0.5) translate(-100%, -100%);}
 
 	#gen-container, #about-container {
 		transform: scale(0.5) translate(-100%, -100%);
-		width: 175%;
+		width:     175%;
 	}
 
-	#gen-text, #gen-button {
-		font-size: 48px;
-	}
+	#gen-text, #gen-button {font-size: 48px;}
 
-	#gen-container h1, #about-container h1 {
-		font-size: 56px;
-	}
+	#gen-container h1, #about-container h1 {font-size: 56px;}
 }
